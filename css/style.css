@@ -40,65 +40,81 @@ body {
     color: #676573;
     font-size: 13px;
     text-transform: uppercase;
-    
 }
 
 /* SECTIONS */
 
-.section{
-  font-size: 6em;
+.section {
+  line-height: 2em;
   text-align: center;
-}
-
-.section1{
-  margin-top: 10px;
-	background-color: #f3f2f7;
   border: 2px solid #676573;
   border-radius: 4px;
   height: 98vh;
 }
-
-.section2{
+.opener {
+  display: table;
+  height: 100%;
+}
+.opener-text {
+  display: table-cell;
+  vertical-align: middle;
+}
+.opener-txt {
+  margin: 20px 450px;
+}
+.section1 {
+  margin-top: 10px;
 	background-color: #f3f2f7;
 }
 
-.section3{
+.section2 {
+  margin-top: 40px;
+	background-color: #f3f2f7;
+}
+
+.section3 {
+  margin-top: 40px;
 	background-color: #56b9a4;
 
 }
 
-.section4{
+.section4 {
+  margin-top: 40px;
   background-color: #56b9a4;
 }
 
-.section5{
+.section5 {
+  margin-top: 40px;
   background-color: #2a3034;
 }
 
 /* FONTS */
 
-h1, h2, h3, h4, h5, h6, p{
+h1, h2, h3, h4, h5, h6, p {
 	font-family: 'Roboto', sans-serif;
 }
 
-p{
+p {
   font-size: 16px;
   font-family: 'Roboto';
   font-weight: 300;
 }
 
-h1{
+h1 {
   font-size: 72px;
   font-family: 'Roboto';
   font-weight: bold;
 }
 
-h2{
-  font-size: 34px;
+.h2 {
+  font-size: 38px !important;
   font-family: 'Roboto';
-  font-weight: bold;
+  font-weight: 900 !important;
+}
+.h2-light {
+    font-weight: 300 !important;
 }
 
-.grey{
+.grey {
   color: #595663;
 }
