@@ -18,6 +18,14 @@ body {
     position: relative;
 }
 
+/* LOGOs */
+.appear {
+  position: relative;
+  top: 20px;
+  margin-left: 20px;
+  text-align: left;
+}
+
 /* BUTTONS */
 
 .button-white {
@@ -60,7 +68,7 @@ body {
   vertical-align: middle;
 }
 .opener-txt {
-  margin: 20px 450px;
+  margin: 20px 0;
 }
 .section1 {
   margin-top: 10px;
@@ -88,6 +96,7 @@ body {
   background-color: #2a3034;
 }
 
+
 /* FONTS */
 
 h1, h2, h3, h4, h5, h6, p {
@@ -113,7 +122,21 @@ h2 {
 .xh2-light {
   font-weight: 100;
 }
-
 .grey {
   color: #595663;
+}
+
+.heavy {
+    font-weight: 700;
+    font-size: 18px;
+    font-family: 'Roboto';
+}
+.smalllogomargin {
+  margin-left: 60px;
+
+}
+
+.smalllogotext {
+  line-height: 0px;
+  font-size: 10px;
 }
