@@ -1,3 +1,7 @@
+/* HTML*/
+body {
+  height: 100%
+}
 
 /* SVG */
 
@@ -42,28 +46,30 @@
 /* SECTIONS */
 
 .section{
-    font-size: 6em;
-    text-align: center;
+  font-size: 6em;
+  text-align: center;
 }
 
 .section1{
+  margin-top: 10px;
 	background-color: #f3f2f7;
-	overflow: hidden;
+  border: 2px solid #676573;
+  border-radius: 4px;
+  min-height:1500px;
 }
 
 .section2{
 	background-color: #f3f2f7;
-	overflow: hidden;
+
 }
 
 .section3{
 	background-color: #56b9a4;
-	overflow: hidden;
+
 }
 
 .section4{
-    background-color: #56b9a4;
-	overflow: hidden;
+  background-color: #56b9a4;
 }
 
 .section5{
