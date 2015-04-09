@@ -1,0 +1,100 @@
+
+/* SVG */
+
+.svg-wrapper{
+    position: relative;
+}
+
+.svg-icon {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-right: 6px;
+    display: inline-block;
+    position: relative;
+}
+
+/* BUTTONS */
+
+.button-white {
+    min-width: 150px;
+    max-width: 450px;
+    background: none;
+    vertical-align: middle;
+    z-index: 1;
+    cursor: pointer;
+    border: 2px solid;
+    border-radius: 40px;
+    padding: 0.8em 2em;
+    position: relative;
+    
+}
+
+.button-white-text {
+    font-family: 'Roboto';
+    font-weight: 800; 
+    color: #676573;
+    font-size: 13px;
+    text-transform: uppercase;
+    
+}
+
+/* SECTIONS */
+
+.section{
+    font-size: 6em;
+    text-align: center;
+}
+
+.section1{
+	background-color: #f3f2f7;
+	overflow: hidden;
+}
+
+.section2{
+	background-color: #f3f2f7;
+	overflow: hidden;
+}
+
+.section3{
+	background-color: #56b9a4;
+	overflow: hidden;
+}
+
+.section4{
+    background-color: #56b9a4;
+	overflow: hidden;
+}
+
+.section5{
+    background-color: #2a3034;
+	overflow: hidden;
+}
+
+/* FONTS */
+
+h1, h2, h3, h4, h5, h6, p{
+	font-family: 'Roboto', sans-serif;
+}
+
+p{
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 300;
+}
+
+h1{
+  font-size: 72px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+h2{
+  font-size: 34px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+.grey{
+  color: #595663;
+}
