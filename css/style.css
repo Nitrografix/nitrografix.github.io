@@ -88,7 +88,7 @@ body {
 
 .section4 {
   margin-top: 40px;
-  background-color: #56b9a4;
+  background-color: #f3f2f7;
 }
 
 .section5 {
@@ -115,15 +115,26 @@ h1 {
 }
 
 h2 {
-  font-size: 38px;
+  font-size: 42px;
   font-family: 'Roboto';
-  font-weight: 900;
+  font-weight: 700;
 }
 .xh2-light {
   font-weight: 100;
 }
+
+h4 {
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+
 .grey {
   color: #595663;
+}
+
+.white {
+  color: #fff;
 }
 
 .heavy {
