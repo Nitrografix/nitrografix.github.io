@@ -125,12 +125,18 @@ margin-top: 50px;
 /* PROFILE */
 
 .profile-left { /*MIght need to be removed*/
-padding-left: 100px;
+  padding-left: 100px;
 }
 
 .profile-right {
-  background-color: blue;
-  height: 250px;
+  margin-top: 120px;
+  display: table;
+  padding-left: 100px;
+  
+}
+
+#profile-nomargin {
+  margin-top: 20px;
 }
 
 .profile-name {
@@ -170,6 +176,12 @@ padding-left: 100px;
   padding-top: 30px;
 }
 
+.profile-content-text {
+  font-size: 14px;
+  color: white;
+  text-align: left;
+}
+
 .left p, .right p {
   text-transform: uppercase;
   font-size: 48px;
@@ -184,13 +196,25 @@ padding-left: 100px;
 
 .profile-sep, .profile-sep2 {
   border-top: 2px solid white;
-  width: 55px;
+  width: 75px;
   float: left;
 }
 #profilesep2 {
   float: left;
 }
 
+
+.profilebox {
+  display: inline-block;
+  border: 2px white solid;
+  height: 150px;
+  width: 150px;
+  border-radius: 2px;
+}
+.txtbottom {
+  text-align: text-bottom;
+  color:white;
+}
 
 /* FONTS */
 
