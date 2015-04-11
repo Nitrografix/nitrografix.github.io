@@ -98,10 +98,103 @@ body {
   background-color: #2a3034;
 }
 
+/* CREW */
+
+.crewmembers {
+margin-top: 50px;
+}
+
+.crewbox {
+  border: 2px #8A969C solid;
+  height: 300px;
+  width: 450px;
+  margin-left: 35px;
+  border-radius: 2px;
+}
+
+.left {
+  width: 50%;
+  float: left;
+  
+}
+.right {
+  width: 50%;
+  float: right;
+}
+
+/* PROFILE */
+
+.profile-left { /*MIght need to be removed*/
+padding-left: 100px;
+}
+
+.profile-right {
+  background-color: blue;
+  height: 250px;
+}
+
+.profile-name {
+  font-size: 60px;
+  color: white;
+  font-weight: 500;
+  text-align: left;
+}
+
+.profile-name-light {
+  font-weight: 100;
+}
+
+.profile-title {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 500;
+  text-align: left;
+  padding-top: 30px;
+}
+
+.profile-mission {
+  font-size: 16px;
+  color: white;
+  text-align: left;
+  padding-top: 30px;
+}
+
+.profile-links {
+  color: white;
+  text-align: left;
+  padding-top: 30px;
+}
+
+.profile-content {
+  padding-top: 30px;
+}
+
+.left p, .right p {
+  text-transform: uppercase;
+  font-size: 48px;
+  color: white;
+  text-align: left;
+  font-weight: 900;
+  line-height: 36px;
+}
+.left p:first-child, .right p:first-child {
+  margin-top: 25px;
+}
+
+.profile-sep, .profile-sep2 {
+  border-top: 2px solid white;
+  width: 55px;
+  float: left;
+}
+#profilesep2 {
+  float: left;
+}
+
 
 /* FONTS */
 
-h1, h2, h3, h4, h5, h6, p {
+*, h1, h2, h3, h4, h5, h6, p {
 	font-family: 'Roboto', sans-serif;
 }
 
@@ -112,7 +205,6 @@ p {
 
 h1 {
   font-size: 72px;
-  font-family: 'Roboto';
   font-weight: bold;
 }
 
