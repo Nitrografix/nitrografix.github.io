@@ -1,6 +1,6 @@
 /* HTML*/
 body {
-
+  -webkit-font-smoothing: antialiased;
 }
 
 /* SVG */
@@ -125,11 +125,12 @@ margin-top: 50px;
 /* PROFILE */
 
 .profile-left { /*MIght need to be removed*/
+  margin-top: 120px;
   padding-left: 100px;
 }
 
 .profile-right {
-  margin-top: 120px;
+  margin-top: 150px;
   padding-left: 100px;
   
 }
@@ -202,19 +203,74 @@ margin-top: 50px;
   float: left;
 }
 
-
 .profilebox {
   margin-left: 10px;
   border: 2px white solid;
   height: 150px;
   width: 150px;
   border-radius: 2px;
+  text-align: left;
+  padding-left: 30px;
+  padding-top: 20px;
+  font-size: 20px;
+  color:white;
+
 }
 .txtbottom {
-  text-align: text-bottom;
+  position: relative;
+  bottom: -80px;
+  left: 10px;
   color:white;
+  font-weight: 500;
+  font-size: 18px;
 }
 
+/* RESOURCES */
+
+
+#profilesep3 {
+  border-color: #676573 ;
+}
+
+.res-txt p {
+  color: #676573 ;
+  text-align: left;
+  padding-bottom: 15px;
+}
+.res-category {
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.res-title {
+  font-size: 52px;
+  font-weight: 900;
+}
+
+.res-desc {
+  color: black;
+  font-size: 14px;
+}
+
+.res-buttons {
+  float: left;
+}
+.res-splash {
+  padding-left: 50px;
+}
+.res-boxes {
+  margin-top: 50px;
+}
+.resourcebox {
+  height: 150px;
+  width: 350px;
+  border: 2px orange solid;
+  background-color: orange;
+  float:left;
+  text-align: left;
+  margin-left: 65px
+}
 /* FONTS */
 
 *, h1, h2, h3, h4, h5, h6, p {
