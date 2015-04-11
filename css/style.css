@@ -106,9 +106,9 @@ margin-top: 50px;
 
 .crewbox {
   border: 2px #8A969C solid;
-  height: 300px;
-  width: 450px;
-  margin-left: 35px;
+  height: 25rem;
+  width: 40rem;
+  margin-left: 6rem;
   border-radius: 2px;
 }
 
@@ -130,7 +130,6 @@ margin-top: 50px;
 
 .profile-right {
   margin-top: 120px;
-  display: table;
   padding-left: 100px;
   
 }
@@ -205,7 +204,7 @@ margin-top: 50px;
 
 
 .profilebox {
-  display: inline-block;
+  margin-left: 10px;
   border: 2px white solid;
   height: 150px;
   width: 150px;
