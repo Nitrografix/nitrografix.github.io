@@ -185,6 +185,7 @@ margin-top: 50px;
   font-size: 36px;
   color: #595663;
   font-weight: 700;
+  text-align: center;
 }
 
 .crew-name-light {
@@ -192,13 +193,15 @@ margin-top: 50px;
   color: #595663;
   font-weight: 100; 
   padding-top: 10px;
+  text-align: center;
 }
 
 .crew-jobtitle {
   font-size: 14px;
   font-weight: 700; 
-  padding-top: 10px;
+  padding-top: 15px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .crew-missing {
@@ -334,6 +337,7 @@ margin-top: 50px;
   font-size: 20px;
   color:white;
 }
+
 .txtbottom {
   position: relative;
   bottom: -50px;
@@ -352,7 +356,7 @@ margin-top: 50px;
 .res-txt p {
   color: #676573 ;
   text-align: left;
-  padding-bottom: 15px;
+  padding-bottom: 5px;
 }
 .res-category {
   font-size: 18px;
@@ -366,28 +370,50 @@ margin-top: 50px;
 }
 
 .res-desc {
-  color: black;
-  font-size: 14px;
+  color: #595663;
+  font-size: 15px;
+  font-weight: 400;
+  padding-top: 10px;
 }
 
 .res-buttons {
   float: left;
+  padding-top: 10px;
 }
+
 .res-splash {
   padding-left: 50px;
 }
+
 .res-boxes {
   margin-top: 50px;
 }
+
 .resourcebox {
+  border: 2px #8A969C solid;
   height: 150px;
   width: 350px;
-  border: 2px orange solid;
-  background-color: orange;
+  margin-left: 65px;
+  border-radius: 2px;
+  text-align: left;  
   float:left;
-  text-align: left;
-  margin-left: 65px
+  padding-left: 30px;
+  padding-top: 20px;
 }
+
+.res-txtbottom {
+  position: relative;
+  bottom: -25px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.res-txtbottom-light {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 400;
+}
+
 /* FONTS */
 
 *, h1, h2, h3, h4, h5, h6, p {
