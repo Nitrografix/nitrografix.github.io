@@ -19,14 +19,14 @@ body {
 }
 
 .svg-plus-icon {
-    width: 24px;
-    height: 24px;
+    width: 18px;
+    height: 18px;
     position: relative;
     display: inline-block;
 }
 
 svg.svg-white path {
-    fill: #fff;
+    fill: #ffffff;
 }
 
 svg.svg-grey path {
@@ -157,7 +157,7 @@ margin-top: 50px;
 .profile-name {
   font-size: 60px;
   color: white;
-  font-weight: 500;
+  font-weight: 700;
   text-align: left;
 }
 
@@ -169,14 +169,15 @@ margin-top: 50px;
   font-size: 24px;
   text-transform: uppercase;
   color: white;
-  font-weight: 500;
+  font-weight: 700;
   text-align: left;
   padding-top: 30px;
 }
 
 .profile-mission {
   font-size: 16px;
-  color: white;
+  color: white; 
+  font-weight: 400;
   text-align: left;
   padding-top: 30px;
 }
@@ -233,8 +234,7 @@ margin-top: 50px;
 }
 .txtbottom {
   position: relative;
-  bottom: -80px;
-  left: 10px;
+  bottom: -50px;
   color:white;
   font-weight: 500;
   font-size: 18px;
