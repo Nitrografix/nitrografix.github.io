@@ -13,7 +13,8 @@ body {
     width: 24px;
     height: 24px;
     vertical-align: middle;
-    margin-right: 6px;
+    margin-right: 10px;
+	margin-bottom: 3px;
     display: inline-block;
     position: relative;
 }
@@ -43,6 +44,40 @@ svg.svg-grey path {
 
 /* BUTTONS */
 
+.button-grey {
+    min-width: 150px;
+    max-width: 450px;
+    background: none;
+    vertical-align: middle;
+    z-index: 1;
+    cursor: pointer;
+    border: 2px solid;
+    border-radius: 40px;
+    padding: 0.5em 1.6em;
+    position: relative; 
+}
+
+.button-grey-filled {
+    min-width: 150px;
+    max-width: 450px;
+    background: #676573;
+    vertical-align: middle;
+    z-index: 1;
+    cursor: pointer;
+    border: 2px solid;
+    border-radius: 40px;
+    padding: 0.5em 1.6em;
+    position: relative;
+}
+
+.button-grey-text {
+    font-family: 'Roboto';
+    font-weight: 800; 
+    color: #676573;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
 .button-white {
     min-width: 150px;
     max-width: 450px;
@@ -52,7 +87,7 @@ svg.svg-grey path {
     cursor: pointer;
     border: 2px solid;
     border-radius: 40px;
-    padding: 0.8em 2em;
+    padding: 0.5em 1.6em;
     position: relative;
     
 }
@@ -60,10 +95,11 @@ svg.svg-grey path {
 .button-white-text {
     font-family: 'Roboto';
     font-weight: 800; 
-    color: #676573;
+    color: #ffffff;
     font-size: 13px;
     text-transform: uppercase;
 }
+
 
 /* SECTIONS */
 
@@ -138,6 +174,10 @@ margin-top: 50px;
 }
 
 /* PROFILE */
+
+.profile-icon {
+  padding-right: 15px;
+}
 
 .profile-left { /*MIght need to be removed*/
   margin-top: 120px;
