@@ -26,12 +26,38 @@ body {
     display: inline-block;
 }
 
+.svg-missing-icon {
+    width: 64px;
+    height: 64px;
+	fill: #595663;
+	text-align: center;
+}
+
+/* SVG - COLORS */
+
+
 svg.svg-white path {
     fill: #ffffff;
 }
 
 svg.svg-grey path {
     fill: #676573;
+}
+
+svg.svg-green path {
+	fill: #56b9a4;
+}
+
+svg.svg-blue path {
+	fill: #00a9d0;
+}
+
+svg.svg-red path {
+	fill: #ea5c42;
+}
+
+svg.svg-purple path {
+	fill: #a156b9;
 }
 
 /* LOGOs */
@@ -155,12 +181,49 @@ svg.svg-grey path {
 margin-top: 50px;
 }
 
+.crew-name {
+  font-size: 36px;
+  color: #595663;
+  font-weight: 700;
+}
+
+.crew-name-light {
+  font-size: 36px;
+  color: #595663;
+  font-weight: 100; 
+  padding-top: 10px;
+}
+
+.crew-jobtitle {
+  font-size: 14px;
+  font-weight: 700; 
+  padding-top: 10px;
+  text-transform: uppercase;
+}
+
+.crew-missing {
+  font-size: 28px;
+  color: #595663;
+  font-weight: 700;
+  text-align: center;
+}
+
+.crew-missing-light {
+  font-size: 16px;
+  color: #595663;
+  font-weight: 300;
+  text-align: center;
+}
+
 .crewbox {
   border: 2px #8A969C solid;
   height: 25rem;
   width: 40rem;
   margin-left: 6rem;
   border-radius: 2px;
+  text-align: left;  
+  padding-left: 30px;
+  padding-top: 20px;
 }
 
 .left {
@@ -270,7 +333,6 @@ margin-top: 50px;
   padding-top: 20px;
   font-size: 20px;
   color:white;
-
 }
 .txtbottom {
   position: relative;
@@ -367,6 +429,22 @@ h4 {
 
 .white {
   color: #fff;
+}
+
+.green {
+  color: #56b9a4;
+}
+
+.blue {
+  color: #00a9d0;
+}
+
+.red {
+  color: #ea5c42;
+}
+
+.purple {
+  color: #a156b9;
 }
 
 .heavy {
