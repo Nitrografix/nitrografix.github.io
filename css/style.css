@@ -15,8 +15,8 @@ body {
  }
 
 .svg-nx-small {
-    width: 54px;
-    height: 54px;
+    width: 64px;
+    height: 64px;
 	float: left;
 }
 
@@ -65,11 +65,29 @@ svg.svg-purple path {
 }
 
 /* LOGOs */
-.appear {
+.small-logo-nx {
   position: relative;
   top: 20px;
-  margin-left: 20px;
+  left: 20px;
   text-align: left;
+}
+
+.logo-text-position {
+  padding-top: 8px;
+  padding-left: 5px;	
+}
+
+.heavy {
+    font-weight: 700;
+    font-size: 18px;
+    font-family: 'Roboto';
+}
+
+.light {
+  line-height: 0;
+  font-weight:300;
+  font-size: 11px;
+  font-family: 'Roboto';
 }
 
 /* BUTTONS */
@@ -130,7 +148,6 @@ svg.svg-purple path {
     text-transform: uppercase;
 }
 
-
 /* SECTIONS */
 
 .section {
@@ -140,31 +157,35 @@ svg.svg-purple path {
   border-radius: 4px;
   height: 98vh;
 }
+
 .opener {
   display: table;
   height: 100%;
   margin: 0 auto;
 }
+
 .opener-text {
   display: table-cell;
   vertical-align: middle;
   width: 800px;
 }
+
 .opener-txt {
   margin: 20px 0;
 }
+
 .section1 {
-  margin-top: 10px;
+    margin-top: 10px;
 	background-color: #f3f2f7;
 }
 
 .section2 {
-  margin-top: 40px;
+    margin-top: 40px;
 	background-color: #f3f2f7;
 }
 
 .section3 {
-  margin-top: 40px;
+    margin-top: 40px;
 	background-color: #56b9a4;
 
 }
@@ -181,15 +202,21 @@ svg.svg-purple path {
 
 /* CREW */
 
+.animal {
+	position: absolute;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
 .crewmembers {
-margin-top: 50px;
+  margin-top: 50px;
 }
 
 .crew-name {
   font-size: 36px;
   color: #595663;
   font-weight: 700;
-  text-align: center;
+  text-align: right;
 }
 
 .crew-name-light {
@@ -197,7 +224,7 @@ margin-top: 50px;
   color: #595663;
   font-weight: 100; 
   padding-top: 10px;
-  text-align: center;
+  text-align: right;
 }
 
 .crew-jobtitle {
@@ -205,7 +232,7 @@ margin-top: 50px;
   font-weight: 700; 
   padding-top: 15px;
   text-transform: uppercase;
-  text-align: center;
+  text-align: right;
 }
 
 .crew-missing {
@@ -232,7 +259,7 @@ margin-top: 50px;
 .crewbox {
   border: 2px #8A969C solid;
   height: 25rem;
-  width: 40rem;
+  width: 450px;
   margin-left: 6rem;
   border-radius: 2px;
   text-align: left;  
@@ -243,7 +270,7 @@ margin-top: 50px;
 .crewbox-missing {
   border: 2px #8A969C solid;
   height: 25rem;
-  width: 40rem;
+  width: 450px;
   margin-left: 6rem;
   border-radius: 2px;
   text-align: left;  
@@ -316,7 +343,7 @@ margin-top: 50px;
 }
 
 .profile-content {
-  padding-top: 30px;
+  padding-top: 40px;
 }
 
 .profile-content-text {
@@ -493,19 +520,4 @@ h4 {
 
 .purple {
   color: #a156b9;
-}
-
-.heavy {
-    font-weight: 700;
-    font-size: 18px;
-    font-family: 'Roboto';
-}
-.smalllogomargin {
-  margin-left: 60px;
-
-}
-
-.smalllogotext {
-  line-height: 0px;
-  font-size: 10px;
 }
