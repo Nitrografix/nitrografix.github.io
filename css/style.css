@@ -9,6 +9,11 @@ body {
     position: relative;
 }
 
+ .svg-clipped {
+    -webkit-clip-path: url(#svgMask);
+    clip-path: url(#svgMask);
+ }
+
 .svg-icon {
     width: 24px;
     height: 24px;
@@ -426,8 +431,9 @@ p {
 }
 
 h1 {
-  font-size: 72px;
-  font-weight: bold;
+  font-size: 105px;
+  font-family: 'Roboto';
+  font-weight: 900;
 }
 
 h2 {
