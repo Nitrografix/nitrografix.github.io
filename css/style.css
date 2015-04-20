@@ -204,12 +204,17 @@ svg.svg-purple path {
 
 .animal {
 	position: absolute;
-	padding-left: 20px;
-	padding-top: 20px;
+	padding-left: 10px;
+	padding-top: 30px;
 }
 
 .crewmembers {
   margin-top: 50px;
+}
+
+.crew-details {
+	padding-right: 25px;
+	padding-top: 28px;
 }
 
 .crew-name {
@@ -253,7 +258,7 @@ svg.svg-purple path {
 	display: block;
     margin-left: auto;
     margin-right: auto;
-	padding-bottom: 30px;
+	padding-bottom: 25px;
 }
 
 .crewbox {
@@ -274,7 +279,7 @@ svg.svg-purple path {
   margin-left: 6rem;
   border-radius: 2px;
   text-align: left;  
-  padding-top: 20px;
+  padding-top: 40px;
 }
 
 .left {
