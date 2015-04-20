@@ -80,14 +80,12 @@ svg.svg-purple path {
 .heavy {
     font-weight: 700;
     font-size: 18px;
-    font-family: 'Roboto';
 }
 
 .light {
   line-height: 0;
   font-weight:300;
   font-size: 11px;
-  font-family: 'Roboto';
 }
 
 /* BUTTONS */
@@ -119,7 +117,6 @@ svg.svg-purple path {
 }
 
 .button-grey-text {
-    font-family: 'Roboto';
     font-weight: 800; 
     color: #676573;
     font-size: 13px;
@@ -141,7 +138,6 @@ svg.svg-purple path {
 }
 
 .button-white-text {
-    font-family: 'Roboto';
     font-weight: 800; 
     color: #ffffff;
     font-size: 13px;
@@ -480,13 +476,11 @@ p {
 
 h1 {
   font-size: 105px;
-  font-family: 'Roboto';
   font-weight: 900;
 }
 
 h2 {
   font-size: 42px;
-  font-family: 'Roboto';
   font-weight: 700;
 }
 .xh2-light {
@@ -495,7 +489,6 @@ h2 {
 
 h4 {
   font-size: 18px;
-  font-family: 'Roboto';
   font-weight: 400;
 }
 
