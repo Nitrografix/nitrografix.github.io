@@ -215,14 +215,15 @@ svg.svg-purple path {
 }
 
 .crew-name {
-    font-size: 36px;
+    font-size: 34px;
     color: #595663;
     font-weight: 700;
+	padding-top: 5px;
     text-align: center;
 }
 
 .crew-name-light {
-    font-size: 36px;
+    font-size: 32px;
     color: #595663;
     font-weight: 100; 
     padding-top: 10px;
@@ -232,7 +233,7 @@ svg.svg-purple path {
 .crew-jobtitle {
     font-size: 14px;
     font-weight: 700; 
-    padding-top: 15px;
+    padding-top: 10px;
     text-transform: uppercase;
     text-align: center;
 }
