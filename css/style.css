@@ -66,15 +66,15 @@ svg.svg-purple path {
 
 /* LOGOs */
 .small-logo-nx {
-  position: relative;
-  top: 20px;
-  left: 20px;
-  text-align: left;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    text-align: left;
 }
 
 .logo-text-position {
-  padding-top: 8px;
-  padding-left: 5px;	
+    padding-top: 8px;
+    padding-left: 5px;	
 }
 
 .heavy {
@@ -83,9 +83,9 @@ svg.svg-purple path {
 }
 
 .light {
-  line-height: 0;
-  font-weight:300;
-  font-size: 11px;
+    line-height: 0;
+    font-weight:300;
+    font-size: 11px;
 }
 
 /* BUTTONS */
@@ -147,27 +147,27 @@ svg.svg-purple path {
 /* SECTIONS */
 
 .section {
-  line-height: 2em;
-  text-align: center;
-  border: 2px solid #676573;
-  border-radius: 4px;
-  height: 98vh;
+    line-height: 2em;
+    text-align: center;
+    border: 2px solid #676573;
+    border-radius: 4px;
+    height: 98vh;
 }
 
 .opener {
-  display: table;
-  height: 100%;
-  margin: 0 auto;
+    display: table;
+    height: 100%;
+    margin: 0 auto;
 }
 
 .opener-text {
-  display: table-cell;
-  vertical-align: middle;
-  width: 800px;
+    display: table-cell;
+    vertical-align: middle;
+    width: 800px;
 }
 
 .opener-txt {
-  margin: 20px 0;
+    margin: 20px 0;
 }
 
 .section1 {
@@ -187,67 +187,68 @@ svg.svg-purple path {
 }
 
 .section4 {
-  margin-top: 40px;
-  background-color: #f3f2f7;
+    margin-top: 40px;
+    background-color: #f3f2f7;
 }
 
 .section5 {
-  margin-top: 40px;
-  background-color: #2a3034;
+    margin-top: 40px;
+    background-color: #2a3034;
 }
 
 /* CREW */
 
-.animal {
-	position: absolute;
-	padding-left: 10px;
-	padding-top: 30px;
+.crewmembers {
+    margin-top: 50px;
 }
 
-.crewmembers {
-  margin-top: 50px;
+.crew-avatar {
+    width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	margin: 0 auto;
+	display: block;
 }
 
 .crew-details {
 	padding-right: 25px;
-	padding-top: 28px;
 }
 
 .crew-name {
-  font-size: 36px;
-  color: #595663;
-  font-weight: 700;
-  text-align: right;
+    font-size: 36px;
+    color: #595663;
+    font-weight: 700;
+    text-align: center;
 }
 
 .crew-name-light {
-  font-size: 36px;
-  color: #595663;
-  font-weight: 100; 
-  padding-top: 10px;
-  text-align: right;
+    font-size: 36px;
+    color: #595663;
+    font-weight: 100; 
+    padding-top: 10px;
+    text-align: center;
 }
 
 .crew-jobtitle {
-  font-size: 14px;
-  font-weight: 700; 
-  padding-top: 15px;
-  text-transform: uppercase;
-  text-align: right;
+    font-size: 14px;
+    font-weight: 700; 
+    padding-top: 15px;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .crew-missing {
-  font-size: 28px;
-  color: #595663;
-  font-weight: 700;
-  text-align: center;
+    font-size: 28px;
+    color: #595663;
+    font-weight: 700;
+    text-align: center;
 }
 
 .crew-missing-light {
-  font-size: 16px;
-  color: #595663;
-  font-weight: 300;
-  text-align: center;
+    font-size: 16px;
+    color: #595663;
+    font-weight: 300;
+    text-align: center;
 }
 
 .crew-missing-icon {
@@ -258,75 +259,75 @@ svg.svg-purple path {
 }
 
 .crewbox {
-  border: 2px #8A969C solid;
-  height: 25rem;
-  width: 450px;
-  margin-left: 6rem;
-  border-radius: 2px;
-  text-align: left;  
-  padding-top: 20px;
-  padding-left: 30px;
+    border: 2px #8A969C solid;
+    height: 25rem;
+    width: 450px;
+    margin-left: 6rem;
+    border-radius: 2px;
+    text-align: left;  
+    padding-top: 20px;
+    padding-left: 30px;
 }
 
 .crewbox-missing {
-  border: 2px #8A969C solid;
-  height: 25rem;
-  width: 450px;
-  margin-left: 6rem;
-  border-radius: 2px;
-  text-align: left;  
-  padding-top: 40px;
+    border: 2px #8A969C solid;
+    height: 25rem;
+    width: 450px;
+    margin-left: 6rem;
+    border-radius: 2px;
+    text-align: left;  
+    padding-top: 40px;
 }
 
 .left {
-  width: 50%;
-  float: left;
+    width: 50%;
+    float: left;
   
 }
 .right {
-  width: 50%;
-  float: right;
+    width: 50%;
+    float: right;
 }
 
 /* PROFILE */
 
 .profile-icon {
-  padding-right: 15px;
+    padding-right: 15px;
 }
 
 .profile-left { /*MIght need to be removed*/
-  margin-top: 120px;
-  padding-left: 100px;
+    margin-top: 120px;
+    padding-left: 100px;
 }
 
 .profile-right {
-  margin-top: 150px;
-  padding-left: 100px;
+    margin-top: 150px;
+    padding-left: 100px;
   
 }
 
 #profile-nomargin {
-  margin-top: 20px;
+    margin-top: 20px;
 }
 
 .profile-name {
-  font-size: 60px;
-  color: white;
-  font-weight: 700;
-  text-align: left;
+    font-size: 60px;
+    color: white;
+    font-weight: 700;
+    text-align: left;
 }
 
 .profile-name-light {
-  font-weight: 100;
+    font-weight: 100;
 }
 
 .profile-title {
-  font-size: 24px;
-  text-transform: uppercase;
-  color: white;
-  font-weight: 700;
-  text-align: left;
-  padding-top: 30px;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    text-align: left;
+    padding-top: 30px;
 }
 
 .profile-mission {
