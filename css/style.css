@@ -465,6 +465,20 @@ svg.svg-purple path {
   font-weight: 400;
 }
 
+
+/* CONTACT */
+
+.ct-txt p {
+   color: #fff;
+   font-size: 30px;
+   font-weight: 400;
+}
+
+.ct-intro {
+	
+}
+
+
 /* FONTS */
 
 *, h1, h2, h3, h4, h5, h6, p {
