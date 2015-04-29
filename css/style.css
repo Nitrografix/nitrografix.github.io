@@ -468,7 +468,8 @@ svg.svg-purple path {
 
 /* CONTACT */
 
-.ct-txt p {
+
+.ct-txt {
    color: #fff;
    font-size: 30px;
    font-weight: 400;
@@ -476,6 +477,26 @@ svg.svg-purple path {
 
 .ct-intro {
 	
+}
+
+.ct-select select{
+	color: #ffcf3f;
+	font-size: 30px;
+	font-weight: 400;
+	width: 180px;
+	background: none;
+	border: none;
+	outline: none;
+}
+
+input[type="text"]{
+    background-color: transparent;
+    border: 0px;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    color:transparent;
 }
 
 
