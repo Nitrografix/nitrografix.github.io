@@ -1,22 +1,26 @@
 /* HTML*/
-body {
+html, body {
   -webkit-font-smoothing: antialiased;
+  margin:0;
+  padding:0;
+  height:100%;
+  width:100%;
 }
 
 /* SVG */
 
 .svg-wrapper {
-    position: relative;
+  position: relative;
 }
 
  .svg-clipped {
-    -webkit-clip-path: url(#svgMask);
-    clip-path: url(#svgMask);
+  -webkit-clip-path: url(#svgMask);
+  clip-path: url(#svgMask);
  }
 
 .svg-nx-small {
-    width: 64px;
-    height: 64px;
+  width: 64px;
+  height: 64px;
 	float: left;
 }
 
@@ -25,7 +29,7 @@ body {
     height: 24px;
     vertical-align: middle;
     margin-right: 10px;
-	margin-bottom: 3px;
+    margin-bottom: 3px;
     display: inline-block;
     position: relative;
 }
@@ -151,7 +155,8 @@ svg.svg-purple path {
     text-align: center;
     border: 2px solid #676573;
     border-radius: 4px;
-    height: 98vh;
+
+
 }
 
 .opener {
@@ -173,6 +178,7 @@ svg.svg-purple path {
 .section1 {
   margin-top: 10px;
 	background-color: #f3f2f7;
+  height: 100%;
 }
 
 .section2 {
@@ -200,6 +206,7 @@ svg.svg-purple path {
 
 .crewmembers {
     margin-top: 50px;
+
 }
 
 .crew-avatar {
@@ -262,7 +269,7 @@ svg.svg-purple path {
 .crewbox {
     border: 2px #8A969C solid;
     height: 25rem;
-    width: 45rem;
+    width: 70%;
     margin-left: 6rem;
     border-radius: 2px;
     text-align: left;  
@@ -273,7 +280,7 @@ svg.svg-purple path {
 .crewbox-missing {
     border: 2px #8A969C solid;
     height: 25rem;
-    width: 45rem;
+    width: 70%;
     margin-left: 6rem;
     border-radius: 2px;
     text-align: left;  
