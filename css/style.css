@@ -155,8 +155,7 @@ svg.svg-purple path {
     text-align: center;
     border: 2px solid #676573;
     border-radius: 4px;
-
-
+    height: 100%;
 }
 
 .opener {
@@ -178,7 +177,6 @@ svg.svg-purple path {
 .section1 {
   margin-top: 10px;
 	background-color: #f3f2f7;
-  height: 100%;
 }
 
 .section2 {
