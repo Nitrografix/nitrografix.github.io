@@ -171,7 +171,7 @@ svg.svg-purple path {
 }
 
 .section1 {
-    margin-top: 10px;
+  margin-top: 10px;
 	background-color: #f3f2f7;
 }
 
@@ -262,7 +262,7 @@ svg.svg-purple path {
 .crewbox {
     border: 2px #8A969C solid;
     height: 25rem;
-    width: 450px;
+    width: 45rem;
     margin-left: 6rem;
     border-radius: 2px;
     text-align: left;  
@@ -273,7 +273,7 @@ svg.svg-purple path {
 .crewbox-missing {
     border: 2px #8A969C solid;
     height: 25rem;
-    width: 450px;
+    width: 45rem;
     margin-left: 6rem;
     border-radius: 2px;
     text-align: left;  
