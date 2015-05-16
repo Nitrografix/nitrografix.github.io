@@ -1,0 +1,199 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(243, 242, 247);
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container-fluid {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+section {
+  padding: 50px 15px;
+}
+
+.n-background {
+ height: 100%
+}
+
+.n-section-1 {
+  background-color: yellow
+}
+
+.n-section-2 {
+  background-color: red;
+}
+
+.n-section-3 {
+  background-color: green;
+}
+
+.n-section-4 {
+  background-color: white;
+}
+
+.n-section-5 {
+  background-color: rgb(89, 86, 99);
+}
+.n-logo-b {
+  background-image: url('../img/nx-logo-small-black.png');
+  width: 46px;
+  height: 46px;
+  float: left;
+}
+
+.n-logo-b-text {
+  padding-left: 3%;
+  line-height: 2rem;
+}
+.n-logo-b-text p:first-child {
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+.n-box {
+  margin: 20px 75px;
+  border: 2px grey solid;
+  height: 250px;
+}
+
+.n-box:hover {
+ background-color: rgba(255, 0, 0, 0.5);;
+}
+
+.n-crew {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.n-social i{
+  padding: 0 15px;
+}
+
+.n-button-download, .n-button-download:hover {
+  border: 1px grey solid;
+  background-color: transparent;
+  padding: 5px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight:bold;
+  color: black;
+}
+
+.n-button-download-grey {
+  background: black;
+  color: white;
+}
+.n-crew-lighttext {
+  color: rgba(255, 255, 255, 0.5);
+}
+.n-crew-projects {
+  background-color: rgb(35, 35, 45);
+}
+.n-crew-box {
+  height: 150px;
+  width: 150px;
+  border: 2px solid white;
+  margin: 0 5px;
+  color: white;
+}
+
+.n-crew-box:hover {
+  background-color: rgb(86, 185, 164);
+}
+
+#n-margin {
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.n-m2 {
+  margin-bottom: 182px;
+}
+
+/*RESOURCES*/
+.n-resources-text {
+  padding-left: 100px;
+}
+
+.n-resources-centerbox {
+  padding-top: 25px;
+  width: 100%;
+  text-align: center;
+}
+
+.n-resources-boxes {
+  border: black 2px solid;
+  border-radius: 3px ;
+  width: 250px;
+  height: 150px;
+  display: inline-block;
+  margin: 0 25px;
+}
+
+.n-resources-boxes:hover {
+  background-color: rgb(250, 182, 73);
+}
+
+
+.n-contact-form {
+  font-size: 24px;
+}
+
+.n-contact-form-editable {
+  border-bottom: 1px grey solid;
+  color: orange;
+  font-weight: 300;
+}
+
+.n-dropdown {
+  background-color: transparent;
+  border: none;
+  color: orange;
+  font-weight: 300;
+}
+textarea {
+  background-color: transparent;
+  border: none;
+  color: orange;
+  font-weight: 300;
+  width: 100%;
+  text-align:center;
+}
+.n-dropdown option {
+  background: rgb(89, 86, 99);
+}
+
+@media only screen
+and (max-width : 500px) {
+ .n-background {
+   height: auto;
+ }
+
+ .n-section-1 {
+   background-color: blue;
+ }
+
+ .n-resources-text {
+   padding:0 15px;
+ }
+ 
+ .n-persona {
+   text-align: center;
+ }
+}
